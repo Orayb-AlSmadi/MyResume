@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+    height: 100vh;
+    width: 100%
+}
+
+.container {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto; 
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 30%;
+    background-color: rgb(47, 161, 146);
+}
+
+.header img {
+    width: 12em;
+    margin: 10% 0 0 0;
+    border: solid rgb(47, 161, 146) 4px
+}
+
+.header_left {
+    flex: 1;
+    padding-left: 5%;
+}
+
+.header_right {
+    flex: 1
+}
+
+.secondLine {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.flexColum {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
