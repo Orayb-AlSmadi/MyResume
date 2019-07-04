@@ -7,10 +7,10 @@ body {
 div
 {
     
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+    font-size: 25px;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+margin: 5px;}
 
 .container {
     height: 80%;
@@ -26,6 +26,8 @@ div
     justify-content: space-evenly;
     max-height: 30%;
     background-color: rgb(230, 142, 42);
+    font-family:lobster;
+    font-size: 30px;
 }
 
 .header img {
@@ -37,6 +39,7 @@ div
 .header_left {
     flex: 1;
     padding-left: 5%;
+    
 }
 
 .header_right {
@@ -65,14 +68,14 @@ div
 
 .thirdLine {
     display: flex;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     flex-direction: column;
     padding-left: 5%;
 }
 
 .fourthLine {
     display: flex;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     flex-direction: column;
     padding-left: 5%;
 }
@@ -80,9 +83,10 @@ div
 .Title
 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-family:lobster;
 }
 
 .footer
@@ -93,4 +97,6 @@ div
     padding: 10px 0 10px 0;
     /* padding: 10px; */
 }
+
+
 
