@@ -1,14 +1,22 @@
 body {
     background-color: gray;
-    height: 100vh;
+    height: 100%;
     width: 100%
+}
+
+div
+{
+    
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .container {
     height: 80%;
     width: 80%;
     margin: 0 auto; 
-    background-color: gainsboro;
+    background-color: papayawhip;
     display: flex;
     flex-direction: column;
 }
@@ -17,13 +25,13 @@ body {
     display: flex;
     justify-content: space-evenly;
     max-height: 30%;
-    background-color: rgb(47, 161, 146);
+    background-color: rgb(230, 142, 42);
 }
 
 .header img {
-    width: 12em;
-    margin: 10% 0 0 0;
-    border: solid rgb(47, 161, 146) 4px
+    width: 10em;
+    margin: 10% 0 -10% 10%;
+    border: solid rgb(230, 142, 42) 10px
 }
 
 .header_left {
@@ -52,5 +60,37 @@ body {
 .flexRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-between  ;
+    justify-content: space-evenly;
 }
+
+.thirdLine {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.fourthLine {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.Title
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer
+{
+    background-color: rgb(230, 142, 42);
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0 10px 0;
+    /* padding: 10px; */
+}
+
